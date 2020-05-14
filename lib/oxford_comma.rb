@@ -1,14 +1,14 @@
-def oxford_comma(array, delimiter = "")
-  string = ""
-  last_index = array.length - 1
-  array.each_with_index do |elem, index|
-    string << elem
-    string << delimiter unless index == last_index
-  end  
-  string
-end
+# def oxford_comma(array, delimiter = "")
+#   string = ""
+#   last_index = array.length - 1
+#   array.each_with_index do |elem, index|
+#     string << elem
+#     string << delimiter unless index == last_index
+#   end  
+#   string
+# end
 
-puts oxford_comma(array, ",")
+# puts oxford_comma(array, ",")
 
 
   def oxford_comma(array)
